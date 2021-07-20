@@ -1,13 +1,16 @@
 import React from "react";
-import style from './Header.module.css'
+import style from './Nav.module.css'
 
-function Header() {
+function Nav() {
     return (
-        <div className={style.header}>
-
+        <div className={style.nav}>
+            <a href=''>Главная</a>
+            <a href=''>Скиллы</a>
+            <a href=''>Проекты</a>
+            <a href=''>Контакты</a>
         </div>
     );
 }
 
-export default Header
+export default Nav
 
