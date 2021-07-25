@@ -5,11 +5,11 @@ function Work(props) {
     return (
         <div className={style.work}>
             <div className={style.icon}>
-                <div className={style.block}>Смотреть</div>
+                <span className={style.block}>Смотреть</span>
             </div>
             <div className={style.text}>
-                <div className={style.title}>{props.title}</div>
-                <div className={style.title}>{props.description}</div>
+                <span className={style.title}>{props.title}</span>
+                <span className={style.title}>{props.description}</span>
             </div>
         </div>
     )
