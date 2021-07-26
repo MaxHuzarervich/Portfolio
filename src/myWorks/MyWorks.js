@@ -9,7 +9,7 @@ function MyWorks() {
             <div className={`${styleContainer.container} ${style.worksContainer}`}>
                 <h2 className={style.title}>Мои работы</h2>
                 <div className={style.works}>
-                    <Work title={'Todo list'} description={'Описание Описание Описание Описание Описание'}/>
+                    <Work title={'Todo list'} description={'Описанcdcsdcdscdddddscdscdcscdscdscsdcsdcdcdscdscsие Описание Описание Описание Описание'}/>
                     <Work title={'Todo list'} description={'Описание Описание Описание Описание Описание'}/>
                     <Work title={'Todo list'} description={'Описание Описание Описание Описание Описание'}/>
                     <Work title={'Todo list'} description={'Описание Описание Описание Описание Описание'}/>

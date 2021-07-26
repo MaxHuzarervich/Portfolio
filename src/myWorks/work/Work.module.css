@@ -9,14 +9,23 @@
     flex-wrap: nowrap;
 }
 
+.block {
+    background-color: gold;
+}
+
 .image {
-    height: 60px;
-    width: 60px;
+    min-height: 100px;
+    width: 100%;
     background-color: darkgray;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .text {
     background-color: red;
+    min-height: 50px;
 }
 
 .title {
