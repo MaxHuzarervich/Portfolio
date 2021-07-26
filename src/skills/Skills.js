@@ -12,6 +12,11 @@ function Skills() {
                     <Skill title={'JS'} description={'Описание моих навыков находится именно здесь!)'}/>
                     <Skill title={'CSS'} description={'Описание моих навыков находится именно здесь!)'}/>
                     <Skill title={'React'} description={'Описание моих навыков находится именно здесь!)'}/>
+                    <Skill title={'React'} description={'Описание моих навыков находится именно здесь!)'}/>
+                    <Skill title={'React'} description={'Описание моих навыков находится именно здесь!)'}/>
+                    <Skill title={'React'} description={'Описание моих навыков находится именно здесь!)'}/>
+                    <Skill title={'React'} description={'Описание моих навыков находится именно здесь!)'}/>
+                    <Skill title={'React'} description={'Описание моих навыков находится именно здесь!)'}/>
                 </div>
             </div>
         </div>

@@ -1,41 +1,17 @@
 .workBlock {
-    background-color: blue;
-    width: 40%;
-    height: 40%;
+    width: 250px;
+    background-color: lightcoral;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+    flex-wrap: nowrap;
 }
 
 .image {
-    background-color: red;
-    width: 100%;
-    min-height: 70%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    height: 60px;
+    width: 60px;
+    background-color: darkgray;
 }
 
-.block {
-    background-color: lawngreen;
-    min-width: 30%;
-    height: 20%;
-    text-align: center;
-}
-
-.text {
-    background-color: green;
-    width: 100%;
-    min-height: 30%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-
-}
-
-.title {
-    background-color: #1ab7ff;
-}
-
-.description {
-    background-color: #1ab7ff;
-}
