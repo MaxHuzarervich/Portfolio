@@ -8,24 +8,23 @@
     width: 80%;
     height: 100%;
     margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
 }
 
+.titleBlock {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 
 .title {
     background-color: #ffcad1;
-    width: 100%;
     text-align: center;
 }
 
 .works {
-    width: 100%;
-    height: 60%;
+    height: 100%;
+    background-color: gold;
     display: flex;
-    flex-direction: row;
-    justify-content: space-around   ;
+    justify-content: space-between;
     flex-wrap: wrap;
 }

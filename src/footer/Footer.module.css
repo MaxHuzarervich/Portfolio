@@ -1,0 +1,25 @@
+.footerBlock {
+    background-color: lightgreen;
+    min-height: 100vh;
+}
+
+.footerContainer {
+    border: 1px solid;
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.title {
+    background-color: darkgray;
+    text-align: center;
+}
+
+.socials {
+    display: flex;
+    flex-direction: row;
+}

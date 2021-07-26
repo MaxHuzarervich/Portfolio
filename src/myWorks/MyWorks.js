@@ -6,15 +6,14 @@ function MyWorks() {
     return (
         <div className={style.worksBlock}>
             <div className={style.worksContainer}>
-                <div className={style.blockTitle}>
-                    <div className={style.title}><h2>Мои работы</h2></div>
-                </div>
+                <div className={style.titleBlock}><h2 className={style.title}>Мои работы</h2></div>
                 <div className={style.works}>
-                    <Work title={'Todolist'} description={'Описание будет здесь.'}/>
-                    <Work title={'Social Network'} description={'Описание будет здесь.'}/>
-                    <Work title={'Social Network'} description={'Описание будет здесь.'}/>
-                    <Work title={'Social Network'} description={'Описание будет здесь.'}/>
-                    <Work title={'Social Network'} description={'Описание будет здесь.'}/>
+                    <Work title={'Todo list'} description={'Описание Описание Описание Описание Описание'}/>
+                    <Work title={'Todo list'} description={'Описание Описание Описание Описание Описание'}/>
+                    <Work title={'Todo list'} description={'Описание Описание Описание Описание Описание'}/>
+                    <Work title={'Todo list'} description={'Описание Описание Описание Описание Описание'}/>
+                    <Work title={'Todo list'} description={'Описание Описание Описание Описание Описание'}/>
+                    <Work title={'Todo list'} description={'Описание Описание Описание Описание Описание'}/>
                 </div>
             </div>
         </div>
