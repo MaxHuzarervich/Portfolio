@@ -15,6 +15,10 @@ function MyWorks() {
                     <Work title={'Todo list'} description={'Описание Описание Описание Описание Описание'}/>
                     <Work title={'Todo list'} description={'Описание Описание Описание Описание Описание'}/>
                     <Work title={'Todo list'} description={'Описание Описание Описание Описание Описание'}/>
+                    <Work title={'Todo list'} description={'Описание Описание Описание Описание Описание'}/>
+                    <Work title={'Todo list'} description={'Описание Описание Описание Описание Описание'}/>
+                    <Work title={'Todo list'} description={'Описание Описание Описание Описание Описание'}/>
+                    <Work title={'Todo list'} description={'Описание Описание Описание Описание Описание'}/>
                 </div>
             </div>
         </div>
