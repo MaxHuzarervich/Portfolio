@@ -1,11 +1,15 @@
 .bigBlock {
     min-height: 50vh;
-}
+    background: linear-gradient(90deg, lightslategray, #ffcad1);}
 
 .container {
     align-items: center;
     flex-direction: column;
     justify-content: flex-start;
+}
+
+.title {
+    background-color: darkgray;
 }
 
 .littleBlock {
@@ -15,4 +19,5 @@
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
+
 }
