@@ -16,7 +16,7 @@
 
 .contactsTitle {
     width: 200px;
-    background-color: darkgray;
+    background-color: lightgreen;
     text-align: center;
 }
 
@@ -27,7 +27,7 @@
     flex-direction: column;
     justify-content: space-around;
     text-align: center;
-    background-color: darkgray;
+    background-color: lightgreen;
 }
 
 .textArea {

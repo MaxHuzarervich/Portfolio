@@ -18,7 +18,10 @@
 .image {
     min-height: 200px;
     min-width: 300px;
-    background-color: darkgray;
+    /*background-color: darkgray;*/
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMVRVC8-pfKVE3anOk6-R51fc4IXd403ukuw&usqp=CAU");
+    background-size: cover;
+    background-position: center;
     display: flex;
     flex-direction: row;
     justify-content: center;
