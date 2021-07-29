@@ -1,7 +1,6 @@
 .worksBlock {
     min-height: 50vh;
-    background-color: lightgreen;
-}
+    background: linear-gradient(90deg, lightslategray, #ffcad1);}
 
 .worksContainer {
     align-items: center;
@@ -9,15 +8,8 @@
     justify-content: flex-start;
 }
 
-.titleBlock {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
 .title {
-    background-color: #ffcad1;
-    text-align: center;
+    background-color: darkgray;
 }
 
 .works {
@@ -27,4 +19,5 @@
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
+
 }

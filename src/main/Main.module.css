@@ -1,7 +1,6 @@
 .mainBlock {
     height: 100vh;
-    background-color: #ffcad1;
-}
+    background: linear-gradient(90deg, lightslategray, #ffcad1);}
 
 .text {
     width: 300px;

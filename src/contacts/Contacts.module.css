@@ -1,5 +1,5 @@
 .contactsBlock {
-    background-color: #1ab7ff;
+    background: linear-gradient(90deg, lightslategray, #ffcad1);
     height: 100vh;
 }
 
@@ -27,7 +27,7 @@
     flex-direction: column;
     justify-content: space-around;
     text-align: center;
-    background-color: burlywood;
+    background-color: darkgray;
 }
 
 .textArea {

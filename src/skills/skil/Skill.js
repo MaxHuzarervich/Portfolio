@@ -5,10 +5,12 @@ function Skill(props) {
     return (
         <div className={style.skill}>
             <div className={style.icon}></div>
-            <h3>{props.title}</h3>
-            <span>
+            <div>
+                <h3>{props.title}</h3>
+                <span className={style.span}>
                 {props.description}
             </span>
+            </div>
         </div>
     );
 }

@@ -6,7 +6,7 @@ function Footer() {
     return (
         <div className={style.footerBlock}>
             <div className={style.footerContainer}>
-                <div className={style.title}>Максим Гузаревич</div>
+                <h2 className={style.title}>Максим Гузаревич</h2>
                 <div className={style.socials}>
                     <div className={style.logo1}></div>
                     <div className={style.logo2}></div>
@@ -14,8 +14,9 @@ function Footer() {
                     <div className={style.logo2}></div>
                     <div className={style.logo1}></div>
                     <div className={style.logo2}></div>
+                    <div className={style.logo1}></div>
                 </div>
-                <div className={style.title}>© 2021 Все права защищены</div>
+                <h3 className={style.title}>© 2021 Все права защищены</h3>
             </div>
         </div>
     )

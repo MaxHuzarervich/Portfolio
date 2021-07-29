@@ -1,5 +1,5 @@
 .footerBlock {
-    background-color: lightgreen;
+    background: linear-gradient(90deg, lightslategray, #ffcad1);
     min-height: 20vh;
 }
 
@@ -20,23 +20,22 @@
 }
 
 .socials {
-    border: 1px solid;
-    min-width: 300px;
+    min-width: 30%;
     min-height: 50px;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .logo1 {
-    background-color: #1ab7ff;
-    min-height: 100%;
+    background-color: #ffcad1;
     min-width: 50px;
     border: 1px solid;
 }
 
 .logo2 {
-    background-color: gold;
-    min-height: 100%;
+    background-color: lightslategray;
     min-width: 50px;
     border: 1px solid;
 }

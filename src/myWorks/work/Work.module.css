@@ -1,5 +1,7 @@
-.workBlock {
-    width: 250px;
+.work {
+    width: 300px;
+    min-height: 250px;
+    margin: 2%;
     background-color: lightcoral;
     display: flex;
     flex-direction: column;
@@ -10,12 +12,12 @@
 }
 
 .block {
-    background-color: gold;
+    background-color: #1ab7ff;
 }
 
 .image {
-    min-height: 100px;
-    width: 100%;
+    min-height: 200px;
+    min-width: 300px;
     background-color: darkgray;
     display: flex;
     flex-direction: row;
@@ -23,9 +25,15 @@
     align-items: center;
 }
 
+.span {
+    display: flex;
+    padding-left: 10px;
+}
+
 .text {
-    background-color: red;
-    min-height: 50px;
+    background-color: burlywood;
+    min-height: 30%;
+    padding: 1%;
 }
 
 .title {

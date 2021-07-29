@@ -3,13 +3,13 @@ import style from "./Work.module.css"
 
 function Work(props) {
     return (
-        <div className={style.workBlock}>
+        <div className={style.work}>
             <div className={style.image}>
                 <div className={style.block}>Смотреть</div>
             </div>
-            <div className={style.text}>
-                <span>{props.title}</span><br/>
-                <span>{props.description}</span>
+            <div>
+                <h3>{props.title}</h3>
+                <span className={style.span}>{props.description}</span>
             </div>
         </div>
     )

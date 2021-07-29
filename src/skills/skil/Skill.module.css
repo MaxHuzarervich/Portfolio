@@ -1,5 +1,7 @@
 .skill {
-    width: 250px;
+    width: 300px;
+    min-height: 250px;
+    margin: 2%;
     background-color: lightcoral;
     display: flex;
     flex-direction: column;
@@ -8,8 +10,15 @@
     overflow: hidden;
     flex-wrap: nowrap;
 }
+
 .icon {
     height: 60px;
     width: 60px;
     background-color: darkgray;
 }
+
+.span {
+    display: flex;
+    padding-left: 10px;
+}
+

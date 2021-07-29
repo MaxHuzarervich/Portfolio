@@ -1,6 +1,6 @@
 .header {
     height: 80px;
-    background-color: #73ffa6;
+    background: linear-gradient(90deg, lightslategray, #ffcad1);
     display: flex;
     justify-content: flex-end;
     align-items: center;

@@ -1,18 +1,14 @@
-.skillsBlock {
+.bigBlock {
     min-height: 50vh;
-    background: linear-gradient(90deg, lightslategray, #ffcad1);}
+}
 
-.skillsContainer {
+.container {
     align-items: center;
     flex-direction: column;
     justify-content: flex-start;
 }
 
-.title {
-    background-color: darkgray;
-}
-
-.skills {
+.littleBlock {
     border: 1px solid;
     width: 99%;
     display: flex;
