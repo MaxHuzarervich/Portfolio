@@ -10,10 +10,11 @@ function Contacts() {
                     <input className={style.input}/>
                     <input className={style.input}/>
                     <textarea className={style.textArea}/>
+                    <button className={style.button}>Отправить</button>
                 </form>
-                <div className={style.buttonSend}>
-                    <h3>Отправить</h3>
-                </div>
+                {/*<div className={style.buttonSend}>*/}
+                {/*    <h3>Отправить</h3>*/}
+                {/*</div>*/}
             </div>
         </div>
     )

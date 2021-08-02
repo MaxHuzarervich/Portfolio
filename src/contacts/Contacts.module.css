@@ -30,6 +30,10 @@
     background-color: lightgreen;
 }
 
+.button {
+    background-color: lightslategray;
+}
+
 .textArea {
     height: 50%;
     font-size: large;

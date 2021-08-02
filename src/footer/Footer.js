@@ -11,10 +11,6 @@ function Footer() {
                     <div className={style.logo1}></div>
                     <div className={style.logo2}></div>
                     <div className={style.logo1}></div>
-                    <div className={style.logo2}></div>
-                    <div className={style.logo1}></div>
-                    <div className={style.logo2}></div>
-                    <div className={style.logo1}></div>
                 </div>
                 <h3 className={style.title}>© 2021 Все права защищены</h3>
             </div>
