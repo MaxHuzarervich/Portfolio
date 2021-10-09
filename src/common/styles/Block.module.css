@@ -1,6 +1,7 @@
 .bigBlock {
-    min-height: 50vh;
-    background: linear-gradient(90deg, lightslategray, #ffcad1);}
+    /*min-height: 50vh;*/
+    background: linear-gradient(90deg, lightslategray, #ffcad1);
+}
 
 .container {
     align-items: center;
@@ -20,4 +21,8 @@
     justify-content: space-around;
     flex-wrap: wrap;
     box-sizing: border-box;
+}
+
+@media screen and (max-width: 1129px) {
+
 }
