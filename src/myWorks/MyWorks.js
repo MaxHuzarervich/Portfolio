@@ -5,9 +5,11 @@ import styleContainer from "../common/styles/Container.module.css";
 
 function MyWorks() {
     return (
-        <div className={style.bigBlock}>
+        <div className={style.bigBlockWorks}>
             <div className={`${styleContainer.container} ${style.container}`}>
-                <h2 className={style.title}>Мои работы</h2>
+                <div className={style.title}>
+                    <h2>Проекты</h2>
+                </div>
                 <div className={style.littleBlock}>
                     <Work title={'Todo list'}
                           description={' Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание '}/>

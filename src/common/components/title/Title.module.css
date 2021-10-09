@@ -1,17 +1,3 @@
-.bigBlockSkills {
-    /*min-height: 50vh;*/
-    background: linear-gradient(90deg, lightslategray, #ffcad1);
-}
-
-.bigBlockWorks {
-    background: #6c757d;
-}
-
-.container {
-    align-items: center;
-    flex-direction: column;
-    justify-content: flex-start;
-}
 
 .title {
     margin: 0 0 30px;
@@ -28,7 +14,8 @@
 .title h2 {
     margin: 0;
 }
-.title::before{
+/*псевдо элемент*/
+.title::before {
     content: '';
     position: absolute;
     background: white;

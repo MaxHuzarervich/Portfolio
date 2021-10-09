@@ -12,9 +12,6 @@ function Contacts() {
                     <textarea className={style.textArea}/>
                     <button className={style.button}>Отправить</button>
                 </form>
-                {/*<div className={style.buttonSend}>*/}
-                {/*    <h3>Отправить</h3>*/}
-                {/*</div>*/}
             </div>
         </div>
     )
