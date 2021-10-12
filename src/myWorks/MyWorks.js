@@ -15,9 +15,9 @@ function MyWorks() {
     }
     return (
         <div className={style.bigBlockWorks}>
-            <div className={`${styleContainer.container} ${style.container}`}>
+            <div className={`${styleContainer.container} ${style.containerWorks}`}>
                 <Title text={'Проекты'}/>
-                <div className={style.littleBlock}>
+                <div className={style.littleBlockWorks}>
                     <Work style={socialNetwork}
                           title={'Social Network'}
                           description={' Описание Описание Описание Описание' +

@@ -32,7 +32,7 @@
     position: relative;
 }
 
-.image::before{
+.image::before {
     position: absolute;
     content: '';
     background-color: black;
@@ -43,7 +43,7 @@
     opacity: 0.4;
 }
 
-.projectInfo{
+.projectInfo {
     padding: 25px 20px;
     background: #545454;
 }
