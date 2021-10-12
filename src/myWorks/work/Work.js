@@ -7,9 +7,9 @@ function Work(props) {
             <div className={style.image}>
                 <div className={style.block}>Смотреть</div>
             </div>
-            <div>
-                <h3>{props.title}</h3>
-                <span className={style.span}>{props.description}</span>
+            <div className={style.projectInfo}>
+                <h3 className={style.workTitle}>{props.title}</h3>
+                <span className={style.description}>{props.description}</span>
             </div>
         </div>
     )

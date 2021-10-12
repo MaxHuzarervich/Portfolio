@@ -1,5 +1,5 @@
 
-.title {
+.workTitle {
     margin: 0 0 30px;
     font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
     font-weight: 300;
@@ -11,11 +11,11 @@
     position: relative;
 }
 
-.title h2 {
+.workTitle h2 {
     margin: 0;
 }
 /*псевдо элемент*/
-.title::before {
+.workTitle::before {
     content: '';
     position: absolute;
     background: white;
