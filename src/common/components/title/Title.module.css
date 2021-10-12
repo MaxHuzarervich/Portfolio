@@ -25,20 +25,3 @@
     left: 50%;
     transform: translate(-50%, 50%);
 }
-
-.littleBlock {
-    border: 1px solid;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    box-sizing: border-box;
-    margin-top: 30px;
-}
-
-@media screen and (max-width: 1129px) {
-    .littleBlock {
-        justify-content: center;
-    }
-}
