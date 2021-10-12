@@ -5,7 +5,7 @@ function Work(props) {
     return (
         <div className={style.work}>
             <div className={style.image} style={props.style}>
-                <div className={style.block}>Смотреть</div>
+                <div className={style.viewButton}>Смотреть</div>
             </div>
             <div className={style.projectInfo}>
                 <h3 className={style.workTitle}>{props.title}</h3>
