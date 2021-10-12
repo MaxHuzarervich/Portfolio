@@ -4,7 +4,7 @@ import style from "./Work.module.css"
 function Work(props) {
     return (
         <div className={style.work}>
-            <div className={style.image}>
+            <div className={style.image} style={props.style}>
                 <div className={style.block}>Смотреть</div>
             </div>
             <div className={style.projectInfo}>
