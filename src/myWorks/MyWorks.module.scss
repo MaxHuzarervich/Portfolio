@@ -1,5 +1,7 @@
+@import '../common/styles/sass/variables';
+
 .bigBlockWorks {
-  background: #6c757d;
+  background: $bgSecondColor;
 
   .containerWorks {
     align-items: center;

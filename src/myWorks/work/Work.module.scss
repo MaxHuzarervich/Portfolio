@@ -1,3 +1,5 @@
+@import '../../common/styles/sass/variables';
+
 .work {
   width: 300px;
   min-height: 250px;
@@ -8,6 +10,7 @@
   text-align: center;
   overflow: hidden;
   flex-wrap: nowrap;
+  background: $bgColor;
 
   .image {
     min-height: 200px;
@@ -21,35 +24,36 @@
     justify-content: center;
     align-items: center;
     position: relative;
-      &::before {
-          position: absolute;
-          content: '';
-          background-color: black;
-          top: 0;
-          bottom: 0;
-          left: 0;
-          right: 0;
-          opacity: 0.4;
-      }
+
+    &::before {
+      position: absolute;
+      content: '';
+      background-color: black;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      opacity: 0.4;
+    }
 
     .viewButton {
-      background-color: burlywood;
+      background-color: $primaryColor;
       position: relative;
       z-index: 1;
+      color: white;
     }
   }
 
   .projectInfo {
     padding: 25px 20px;
-    background: #545454;
 
-    .workTitle {
+    .title {
       font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
       font-size: 16px;
       letter-spacing: 1px;
       margin: 0 0 5px;
       line-height: 1.2;
-      color: #fff;
+      color: $textColor;
     }
 
     .description {
@@ -59,13 +63,7 @@
       line-height: 1.8;
       font-weight: 400;
       font-size: 12px;
-      color: #fff;
+      color: $textColor;
     }
   }
-}
-
-.text {
-  background-color: burlywood;
-  min-height: 30%;
-  padding: 1%;
 }
